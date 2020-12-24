@@ -1,0 +1,98 @@
+Info
+----
+Timestamp:	Fri Dec 11 20:26:28 2020 +0800
+Version:	19.01.8
+
+Checks
+------
+DGX BaseOS Version [4.3.0]........................................... 
+BIOS Version [0406].................................................. 
+DGX Serial Number [180630377200119].................................. 
+Verify installed DIMM memory sticks.................................. Healthy
+Number of logical CPU cores [40]..................................... Healthy
+Verify Ethernet controllers.......................................... Healthy
+Ethernet link speed [0000:02:00.0][8GT/s]............................ Healthy
+Ethernet link width [0000:02:00.0][x4]............................... Healthy
+Ethernet link speed [0000:02:00.1][8GT/s]............................ Healthy
+Ethernet link width [0000:02:00.1][x4]............................... Healthy
+Verify installed GPU's............................................... Healthy
+GPU link speed [0000:0f:00.0][8GT/s]................................. Healthy
+GPU link width [0000:0f:00.0][x16]................................... Healthy
+GPU link speed [0000:08:00.0][8GT/s]................................. Healthy
+GPU link width [0000:08:00.0][x16]................................... Healthy
+GPU link speed [0000:0e:00.0][8GT/s]................................. Healthy
+GPU link width [0000:0e:00.0][x16]................................... Healthy
+GPU link speed [0000:07:00.0][8GT/s]................................. Healthy
+GPU link width [0000:07:00.0][x16]................................... Healthy
+Verify PCIe switches................................................. Healthy
+Status of software RAID volumes...................................... Unhealthy
+	Checking output of 'mdadm --detail' for each software RAID volume
+	Observed unhealthy state "inactive" for RAID volume "/dev/md0"
+Status of software RAID disk superblocks............................. Healthy
+NVIDIA Driver Version [418.116.00]................................... 
+Inforom Storage Version [GPU 0][G500.0203.00.02]..................... 
+Retired pages pending [GPU 0][No].................................... Healthy
+NVLink Topology...................................................... Healthy
+Checking NVLink speed [GPU 0 Link 0][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 0 Link 1][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 0 Link 2][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 0 Link 3][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 1 Link 0][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 1 Link 1][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 1 Link 2][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 1 Link 3][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 2 Link 0][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 2 Link 1][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 2 Link 2][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 2 Link 3][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 3 Link 0][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 3 Link 1][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 3 Link 2][25.781 GB/s].................... Healthy
+Checking NVLink speed [GPU 3 Link 3][25.781 GB/s].................... Healthy
+Total retired page count [GPU 0][0 retired pages].................... Healthy
+VBIOS Version [GPU 0][88.00.48.00.05]................................ 
+Inforom Storage Version [GPU 1][G500.0203.00.02]..................... 
+Retired pages pending [GPU 1][No].................................... Healthy
+Total retired page count [GPU 1][0 retired pages].................... Healthy
+VBIOS Version [GPU 1][88.00.48.00.05]................................ 
+Inforom Storage Version [GPU 2][G500.0203.00.02]..................... 
+Retired pages pending [GPU 2][No].................................... Healthy
+Total retired page count [GPU 2][0 retired pages].................... Healthy
+VBIOS Version [GPU 2][88.00.48.00.05]................................ 
+Inforom Storage Version [GPU 3][G500.0203.00.02]..................... 
+Retired pages pending [GPU 3][No].................................... Healthy
+Total retired page count [GPU 3][0 retired pages].................... Healthy
+VBIOS Version [GPU 3][88.00.48.00.05]................................ 
+Streaming Multiprocessor (SM) count [GPU 0][80]...................... Healthy
+Streaming Multiprocessor (SM) count [GPU 1][80]...................... Healthy
+Streaming Multiprocessor (SM) count [GPU 2][80]...................... Healthy
+Streaming Multiprocessor (SM) count [GPU 3][80]...................... Healthy
+Verify installed disks............................................... Unhealthy
+	Checking output of 'smartctl' for expected disks
+	Found 3 disk(s) with capacity "1.9TB" when 4 disk(s) were expected
+Linux kernel version [4.15.0-55-generic]............................. 
+System Uptime [up 1 day, 2 hours, 28 minutes ]....................... 
+Verify DIMM vendors.................................................. Healthy
+
+System Summary
+--------------
+    Product Name: DGX Station
+    Manufacturer: NVIDIA
+    DGX Serial Number: 0152419000025
+    Uptime: up 1 day, 2 hours, 28 minutes
+Motherboard:
+    BIOS Version: 0406
+    Serial Number: 180630377200119
+GPU:
+    NVIDIA Driver Version: 418.116.00
+    Product Name(s): Tesla V100-DGXS-32GB
+    VBIOS Version(s): 88.00.48.00.05
+Software:
+    DGX BaseOS Version: 4.3.0
+    Kernel Version: 4.15.0-55-generic
+
+Health Summary
+--------------
+48 out of 50 checks are Healthy
+2 out of 50 checks are Unhealthy
+Overall system status is Unhealthy

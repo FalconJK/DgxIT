@@ -1,0 +1,12 @@
+  File "test.py", line 4
+    print image.id
+              ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(image.id)?
+  File "test.py", line 4
+    print image.id
+              ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(image.id)?
+  File "test.py", line 4
+    print image.id
+              ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(image.id)?
